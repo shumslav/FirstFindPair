@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.MenuFragment"
+    android:background="@drawable/background_"
+    android:clickable="true"
+    android:focusable="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/logo_main"
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:src="@drawable/logo_"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:id="@+id/play_menu"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:src="@drawable/play_button_"
+            android:layout_below="@id/logo_main"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"/>
+
+        <ImageView
+            android:id="@+id/shop_menu"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/shop_button_"
+            android:layout_below="@id/play_menu"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
